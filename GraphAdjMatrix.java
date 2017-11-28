@@ -1,5 +1,11 @@
+/*
+	Practice assignment 8. 
+	Author: Tingbin Huang 
+	Class : CS 245 section I
+*/
 
 import java.util.Stack;
+
 
 public class GraphAdjMatrix implements Graph {
 
@@ -7,6 +13,7 @@ public class GraphAdjMatrix implements Graph {
 	private Edge[] edge;
 	private int[] neighborCounter;
 
+	// Constructor
 	public GraphAdjMatrix(int size) {
 		this.size = size;
 		edge = new Edge[size];
